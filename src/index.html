@@ -74,11 +74,11 @@
         <ul class="nav-list">
           <li class="list-item"><a href="#" class="nav-link"><img alt="" src="./images/home_2_.svg"
                                                                   class="home-logo"></a></li>
-          <li class="list-item"><a href="#" class="nav-link">Pricing</a></li>
-          <li class="list-item"><a href="#" class="nav-link">How It Works</a></li>
-          <li class="list-item"><a href="#" class="nav-link">Services</a></li>
-          <li class="list-item"><a href="#" class="nav-link">Blog</a></li>
-          <li class="list-item"><a href="#" class="nav-link">FAQ</a></li>
+          <li class="list-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li class="list-item"><a href="#howWorks" class="nav-link">How It Works</a></li>
+          <li class="list-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="list-item"><a href="#blog" class="nav-link">Blog</a></li>
+          <li class="list-item"><a href="#faq" class="nav-link">FAQ</a></li>
         </ul>
       </div>
       <div>
@@ -109,7 +109,7 @@
           <p class="simple-text">Enjoy the results</p>
         </div>
       </div>
-      <div class="steps-btn-block">
+      <div class="steps-btn-block" id="services">
         <button class="steps-btn steps-first-btn">Check a Detailed Guide</button>
       </div>
     </div>
@@ -119,7 +119,7 @@
       <div class="counter-block container">
         <div class="number counter" data-max="1000">658</div>
         <p class="counter-text">migrations performed</p>
-        <button class="steps-btn steps-second-btn">What our customers say</button>
+        <button class="steps-btn steps-second-btn" id="pricing">What our customers say</button>
       </div>
     </div>
 
@@ -144,7 +144,7 @@
           <p class="why-text">a team of qualified tech gurus at your disposal</p>
         </div>
       </div>
-      <div class="steps-start-btn-block">
+      <div class="steps-start-btn-block" id="blog">
         <button class="start-btn">Start Free Demo</button>
       </div>
     </div>
@@ -164,7 +164,7 @@
           <div><img class="slider-img" alt="" src="images/Layer_48.svg"></div>
         </div>
       </div>
-      <a class="slider__control slider__control_left" href="#" role="button"></a>
+      <a class="slider__control slider__control_left" href="#" role="button" id="howWorks"></a>
       <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
     </div>
   </div>
@@ -210,7 +210,7 @@
   <div class="start-demo-block">
     <h2 class="start-demo-title">Start your free, no risk, demo migration!</h2>
     <div>
-      <div class="">
+      <div class="" id="faq">
         <button class="start-btn">Start Free Demo</button>
       </div>
     </div>
@@ -227,7 +227,7 @@
           <p class="form-sub-title-text">Subscribe for updates. We are constantly adding new Task Management
             Software.</p>
         </div>
-        <form class="form" method="post" id="regForm" enctype="multipart/form-data">
+        <form class="form" method="GET" enctype="text/plain">
           <input class="form-input" id="name" name="name" placeholder="Your Name" type="text" required="" value="">
 
           <input class="form-input" id="email" placeholder="Email" name="email" type="email" required="" value=""/>
