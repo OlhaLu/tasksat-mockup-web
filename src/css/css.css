@@ -132,6 +132,9 @@
 
 .nav-wrapper {
   background-color: var(--nav-background-color);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navigation-block {
@@ -387,7 +390,7 @@
 
 .slider__wrapper {
   display: flex;
-  transition: transform 0.6s ease;
+  transition: transform 0.9s ease;
 }
 
 .slider__item {
@@ -412,11 +415,10 @@
 
 .slider__control:hover,
 .slider__control:focus {
-  color: #fff;
+  color: var(--lazure-text-color);
   text-decoration: none;
   outline: 0;
   opacity: .9;
-  transition: color 0.5s linear;
 }
 
 .slider__control_left {
