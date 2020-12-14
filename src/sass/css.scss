@@ -132,6 +132,9 @@
 
 .nav-wrapper {
   background-color: var(--nav-background-color);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navigation-block {
